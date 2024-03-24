@@ -1,3 +1,4 @@
+@import "font.css";
 @import "reset.css";
 
 
@@ -53,10 +54,10 @@ a{
     position: relative;
     margin-right: 2rem;
 }
-.a1{
-    font-family: quikb
-}
 
+.a1{
+    font-family: quikb !important;
+}
 .a2::after{
     content: '';
     position: absolute;
@@ -104,7 +105,7 @@ a{
     width: 8.7rem;
 }
 .nav__link{
-    font-family: quikb
+    font-family: quikl;
     font-size: 22px;
     color: var(--text-color);
     cursor: pointer;
@@ -204,7 +205,7 @@ a{
 
 .offer-box__title{
 color: #fff;
-font-family: 'Times New Roman', Times, serif;
+font-family: quikb;
 font-size: 17px;
 font-weight: bold;
 }
@@ -269,11 +270,11 @@ font-weight: bold;
 
 .offer-title__text h3{
     background-color: var(--primary-color);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: quikb;
     font-size:35px;
     padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .offer-title__text span{
@@ -283,10 +284,10 @@ font-weight: bold;
     display: flex;
     align-items: center;
     font-size: 35px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: quikb;
     padding: 10px;
-    border-bottom-Right-radius: 5px;
-    border-top-Right-radius: 5px;
+    border-bottom-Right-radius: 20px;
+    border-top-Right-radius: 20px;
 }
 
 /* finish style offer */
@@ -301,7 +302,7 @@ font-weight: bold;
 }
 
 .category-title{
-    font-family:'Times New Roman', Times, serif;
+    font-family:quikb;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgb(244, 244, 244) 85%, rgba(255,209,23,1) 100%);
     width: 500px;
@@ -312,6 +313,7 @@ font-weight: bold;
     justify-content: center;
     border-top-right-radius: 10rem;
     border-top-left-radius: 10rem;
+    font-size: 30px;
 }
 
 .category-courses__box{
@@ -334,7 +336,7 @@ border-radius: 20px;
 }
 
 .category-course__text{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: quikb;
     font-size: 25px;
     
 }
@@ -381,7 +383,7 @@ justify-content: center;
 }
 
 .newIn-title{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: quikb;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgb(244, 244, 244) 85%, rgba(255,209,23,1) 100%);
     width: 350px;
@@ -600,7 +602,7 @@ border-radius: 20px;
     justify-content: center;
     width: 100%;
     height: 100%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: quikb;
     color: #fff;
     font-size: 20px;
 }
@@ -650,7 +652,7 @@ border-bottom-right-radius: 35px;
 
 .rhinestone-text{
     color: var(--primary-color);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: quikb;
     font-size: 45px;
     cursor: pointer;
 }
@@ -701,7 +703,7 @@ font-size: 30px;
 
 .box-service__text{
 color: #fff;
-font-family: 'Times New Roman', Times, serif;
+font-family: quikl;
 margin-top: 20px;
 font-size: 20px;
 text-align: center;
@@ -730,7 +732,7 @@ text-align: center;
 .footer-link{
 color: #fff;
 margin-top: 20px;
-font-family: 'Times New Roman', Times, serif;
+font-family: quikl;
 }
 .footer-link:hover{
     color: var(--primary-color);
@@ -758,7 +760,7 @@ color: #9f9f9f;
 
 .footer-left__text{
     color: #fff;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: quikl;
     font-size: 17px;
 }
 
@@ -778,7 +780,7 @@ cursor: pointer;
 
 
 .btn-text{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: quikb;
     font-size: 20px;
 }
 
@@ -815,7 +817,7 @@ cursor: pointer;
 }
 
 .link{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: quikl;
 }
 
 /* finish style footer */
