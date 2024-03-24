@@ -104,7 +104,6 @@ a{
     width: 8.7rem;
 }
 .nav__link{
-    font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
     color: var(--text-color);
     cursor: pointer;
