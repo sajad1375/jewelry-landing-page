@@ -1,0 +1,8 @@
+@font-face {
+    font-family: quikb;
+    src: url(../font/Quicksand-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: quikl;
+    src: url(../font/Quicksand-Light.ttf) format('truetype');
+}
